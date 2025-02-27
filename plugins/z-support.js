@@ -81,7 +81,7 @@ const axios = require('axios');
 const { fetchJson } = require('../lib/functions');
 
 cmd({
-    pattern: "support",
+    pattern: "دعم",
     alias : "channel",
     desc: "subzero menu",
     category: "menu",
@@ -91,33 +91,7 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
 
-let dec = `    
-⟣──────────────────⟢
-▧ *ᴄʀᴇᴀᴛᴏʀ* : *ᴍʀ ғʀᴀɴᴋ (🇿🇼)*
-▧ *ᴍᴏᴅᴇ* : *${config.MODE}*
-▧ *ᴘʀᴇғɪx* : *${config.PREFIX}*
-▧ *ʀᴀᴍ* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
-▧ *ᴠᴇʀsɪᴏɴ* : *1.0.4* ⚡
-▧ *ᴜᴘᴛɪᴍᴇ* : ${runtime(process.uptime())}
-
-⟣──────────────────⟢
-
-> ＳＵＢＺＥＲＯ - ＭＤ- ＢＯＴ
-
-⟣──────────────────⟢
-
-\`CHANNEL🛠️\`
-https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D
-
-\`GROUP\` 👥
-https://chat.whatsapp.com/InsR5qk3cBsG2781A6uxcO
-
-\`Mr Frank OFC\` *Dev🧑‍💻*
-wa.me/263719647303?text=Support!
-
-⟣──────────────────⟢
-
-`;
+let dec = `تحت الصيانه`;
 
 await conn.sendMessage(
             from,
@@ -130,7 +104,7 @@ await conn.sendMessage(
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363304325601080@newsletter',
-                        newsletterName: '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』',
+                        newsletterName: '『 ANOOS-BOT 』',
                         serverMessageId: 143
                     }
                 }
@@ -148,7 +122,7 @@ await conn.sendMessage(
         //=======
         
         cmd({
-    pattern: "developer",
+    pattern: "مطورك",
     alias : "darex",
     desc: "subzero developer",
     category: "menu",
@@ -160,21 +134,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 let dec = `    
 ⟣──────────────────⟢
-▧ \`SUBZERO MD W.A BOT\`
-
-- ᴛʜɪs ʙᴏᴛ ɪs sᴜʙᴊᴇᴄᴛᴇᴅ ᴛᴏ ᴍʀ ғʀᴀɴᴋ & ʜɪs ᴛᴇᴀᴍ ʜᴀʀᴅ ᴡᴏʀᴋ
-- ɪᴛ ɪs ɪsɴᴛ ᴀ ɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ ʙᴏᴛ ᴛʜᴀᴛ ᴏɴᴇ ᴄᴀɴ ᴄʟᴏɴᴇ
-- ғᴏʀ ᴍᴏʀᴇ ᴠɪsɪᴛ : https://github.com/mrfrank-ofc
-
-\`OFFICIAL REPO\` ‼️
-
-https://github.com/mrfrank-ofc/SUBZERO-MD
-
-
-\`CHANNEL\` 💙
-https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D
-
-
+『 ANOOS-BOT 』
 ⟣──────────────────⟢
 
 `;
@@ -190,7 +150,7 @@ await conn.sendMessage(
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363304325601080@newsletter',
-                        newsletterName: '『 Mʀ Fʀᴀɴᴋ OFC 』',
+                        newsletterName: '『 ANOOS-BOT 』',
                         serverMessageId: 143
                     }
                 }
@@ -207,11 +167,11 @@ await conn.sendMessage(
 
 //======
 cmd({
-    pattern: "zimbabwe",
+    pattern: "طوم",
     alias : "zw",
     desc: "subzero developer",
     category: "about",
-    react: "🇿🇼",
+    react: "🇾🇪",
     filename: __filename
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -219,23 +179,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 let dec = `    
 ⟣──────────────────⟢
-▧ \`SUBZERO MD W.A BOT\`
-
-
-- SUBZERO WAS CREATED BY A JNR DEV IN ZIMBABWE CALLED DARRELL MUCHERI
-
-- HIT https://darrell-m.vercel.app
-
-─────────────
-\`OFFICIAL REPO\` ‼️
-
-https://github.com/mrfrank-ofc/SUBZERO-MD
-
-
-\`CHANNEL\` 💙
-https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D
-
-─────────────
+『 ANOOS-BOT 』
 ⟣──────────────────⟢
 
 `;
@@ -282,23 +226,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
 
 let dec = `    
-⟣──────────────────⟢
-▧ \`SUBZERO MD W.A BOT\`
-
-
-- SUBZERO WAS CREATED BY A JNR DEV IN ZIMBABWE CALLED DARRELL MUCHERI
-
-- HIT https://darrell-m.vercel.app
-
-─────────────
-\`OFFICIAL REPO\` ‼️
-
-https://github.com/mrfrank-ofc/SUBZERO-MD
-
-
-\`CHANNEL\` 💙
-https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D
-
+⟣────
 ─────────────
 ⟣──────────────────⟢
 
@@ -315,7 +243,7 @@ await conn.sendMessage(
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363304325601080@newsletter',
-                        newsletterName: '『 Mʀ Fʀᴀɴᴋ OFC 』',
+                        newsletterName: '『 ANOOS-BOT 』',
                         serverMessageId: 143
                     }
                 }
@@ -377,9 +305,9 @@ cmd({
 
     let message = '';
     if (currentVersion === latestVersion) {
-      message = `Subzero bot is official ! 😊\n Thanks For supporting us your version is ${currentVersion}`;
+      message = ` bot is official ! 😊\n Thanks For supporting us your version is ${currentVersion}`;
     } else {
-      message = `This Bot Is Cloned From SubZero Md😵!`;
+      message = `This Bot Is Cloned From Md😵!`;
     }
 
    // await reply(message);
@@ -399,7 +327,7 @@ cmd({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363304325601080@newsletter',
-                    newsletterName: '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』',
+                    newsletterName: '『 ANOOS 𝐌𝐃 』',
                     serverMessageId: 143
                 }
             }
