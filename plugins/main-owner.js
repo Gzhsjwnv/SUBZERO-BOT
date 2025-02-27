@@ -222,7 +222,7 @@ const { cmd } = require('../command');
 const config = require('../config');
 
 cmd({
-    pattern: "owner",
+    pattern: "المطور",
     react: "✅", 
     desc: "Get owner number",
     category: "main",
@@ -250,7 +250,7 @@ async (conn, mek, m, { from }) => {
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
             image: { url: 'https://i.postimg.cc/Tw01QQgN/White-and-Green-Simple-Professional-Business-Project-Presentation-3.jpg' }, // Image URL from your request
-            caption: `╭━━〔 *SUBZERO MD* 〕━━┈⊷
+            caption: `╭━━〔 *انوس MD* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here are the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -265,7 +265,7 @@ async (conn, mek, m, { from }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363304325601080@newsletter',
-                    newsletterName: 'Mr Frank OFC (🇿🇼)',
+                    newsletterName: 'انوس (🇾🇪)',
                     serverMessageId: 143
                 }            
             }
@@ -273,7 +273,7 @@ async (conn, mek, m, { from }) => {
 
         // Send audio as per your request
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/raw/refs/heads/main/audios/subzero-theone.mp3' }, // Audio URL
+            audio: { url: '' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
